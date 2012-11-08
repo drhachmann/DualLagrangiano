@@ -1,0 +1,9 @@
+#Comentarios
+REPETITIONS					= 2000 	#Número de repetições do algoritmo
+MULTIPL_DUAL	 			= 1.05 	#Multiplicador do Dual no cálculo do passo
+INIT_MI 			 			= 2.00	#Valor inicial do MI (PI)
+INIT_V			 			= 0.00	#Valor inicial do vetor V
+INIT_U			 			= 0.00	#valor inicial do vetor U
+STEPS_CHANGE_MI  			= 30	#Quantidade de passos iguais para mudar o MI
+ADJUST_SUBGRADIENT		= YES	#G[i]=0 se, u[i]=0 && G[i]<0
+END
